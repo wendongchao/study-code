@@ -1,10 +1,12 @@
 # 学习编码总结
 
-参考：https://www.cnblogs.com/pingoo/p/13709363.html
+参考资料：https://www.cnblogs.com/jajian/p/11833179.html
 
-# Java基础
+# Java基础[#](https://www.cnblogs.com/jajian/p/11833179.html#java基础)
 
-- [Java 7 和 Java 8 中的 HashMap原理解析](https://www.cnblogs.com/jajian/p/10385063.html)
+- [Java对象的内存布局](https://www.cnblogs.com/jajian/p/13681781.html)
+- [MapStruct 解了对象映射的毒](https://www.cnblogs.com/jajian/p/13937897.html)
+- [周末我把HashMap源码又过了一遍](https://www.cnblogs.com/jajian/p/13965678.html)
 - [Java7 和 Java8 中的 ConcurrentHashMap 原理解析](https://www.cnblogs.com/jajian/p/10385377.html)
 - [Java中自定义注解](https://www.cnblogs.com/jajian/p/9576466.html)
 - [Java函数式编程和lambda表达式](https://www.cnblogs.com/jajian/p/9757350.html)
@@ -16,16 +18,36 @@
 - 深入分析 Java SPI 机制和原理
 - [对Java中HashCode方法的深入思考](https://www.cnblogs.com/jajian/p/11306471.html)
 - [通俗易懂讲布隆过滤器](https://www.cnblogs.com/jajian/articles/12749928.html)
-- [Netty、Kafka中的零拷贝技术到底有多牛?](https://www.cnblogs.com/jajian/articles/12844821.html)
 
-# 并发编程专题[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2262617258)
+# 数据库专题
 
-## Executors线程池[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3355175888)[#](https://www.cnblogs.com/pingoo/p/13709363.html#executors线程池)
+## Redis
+
+
+
+## MySQL
+
+
+
+# 设计模式专题
+
+- [Template模板模式](https://www.cnblogs.com/jajian/p/9729939.html)
+- [Decorator装饰模式](https://www.cnblogs.com/jajian/p/9729989.html)
+- [Adapter适器模式](https://www.cnblogs.com/jajian/p/9736164.html)
+- [Proxy代理模式](https://www.cnblogs.com/jajian/p/9691221.html)
+- [Strategy策略模式](https://www.cnblogs.com/jajian/p/9740271.html)
+- [责任链模式](https://www.cnblogs.com/jajian/p/9743922.html)
+- [Observer观察者模式](https://www.cnblogs.com/jajian/p/9746433.html)
+- [Builder建造者模式](https://www.cnblogs.com/jajian/p/9749138.html)
+
+# 并发编程专题[#](https://www.cnblogs.com/jajian/p/11833179.html#并发编程专题)
+
+## Executors线程池[#](https://www.cnblogs.com/jajian/p/11833179.html#executors线程池)
 
 - [线程池其实看懂了也很简单](https://www.cnblogs.com/jajian/p/11442929.html)
 - [线程数究竟设多少合理](https://www.cnblogs.com/jajian/p/10862365.html)
 
-## 并发编程 Lock 锁[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3287474608)[#](https://www.cnblogs.com/pingoo/p/13709363.html#并发编程-lock-锁)
+## 并发编程 Lock 锁[#](https://www.cnblogs.com/jajian/p/11833179.html#并发编程-lock-锁)
 
 - Lock
 - 可重入锁Reetrantlock
@@ -34,23 +56,22 @@
 - ReadWriteLock
 - LockSupport
 
-## 并发类编程工具[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1717608443)[#](https://www.cnblogs.com/pingoo/p/13709363.html#并发类编程工具)
+## 并发类编程工具[#](https://www.cnblogs.com/jajian/p/11833179.html#并发类编程工具)
 
 - CountDownLatch
 - CyclicBarrier
 - Semaphore
 - Exchange
 
-## 并发编程容器collections[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1280202498)[#](https://www.cnblogs.com/pingoo/p/13709363.html#并发编程容器collections)
+## 并发编程容器collections[#](https://www.cnblogs.com/jajian/p/11833179.html#并发编程容器collections)
 
 - 并发Queue：BlockingQueue
 - Map：ConcurrentHashMap、HashMap、HashTable
 - 并发List Set：CopyOnWriteArrayList、CopyOnWriteArraySet、
 - ArrayList、 LinkedList
 - ConcurrentHashMap为何如此优秀?
-- [CompletableFuture 入门学习](https://www.cnblogs.com/dtdx/p/14238516.html)
 
-## 内存模型[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#920194109)[#](https://www.cnblogs.com/pingoo/p/13709363.html#内存模型)
+## 内存模型[#](https://www.cnblogs.com/jajian/p/11833179.html#内存模型)
 
 - Condition
 - 简单却强大的 CAS
@@ -61,20 +82,9 @@
 - Volatile详解
 - ThreadLocal详解
 
-# 数据结构与算法专题
+# 分布式专题[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式专题)
 
-- [数据结构与算法（一）：复杂度分析](https://www.cnblogs.com/dtdx/p/13782349.html#/c/subject/p/13782349.html)
-- [数据结构与算法（二）：数组](https://www.cnblogs.com/dtdx/#/c/subject/p/13800739.html)
-- [数据结构与算法（四）：AVL树](https://mp.weixin.qq.com/s/POX8QV9JFrRcAi-q-sJvOA)
-- [数据结构与算法（四）：红黑树](https://mp.weixin.qq.com/s/2_G9dKF033_suehS0Fer1w)
-
-# 动态规划
-
-- [图解 | 原来这就是动态规划](https://www.cnblogs.com/flashsun/p/14448939.html)
-
-# 分布式专题[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2253513385)
-
-## 分布式协调Zookeeper[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#677958106)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式协调zookeeper)
+## 分布式协调Zookeeper[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式协调zookeeper)
 
 - Zookeeper快速上手使用
 - Zookeeper集群部署
@@ -91,7 +101,7 @@
 - 基于Zookeeper实现分布式服务器动态上下线感知
 - 深入分析Zookeeper Zab协议及选举机制源代码
 
-## 分布式框架Dubbo[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2920810343)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式框架dubbo)
+## 分布式框架Dubbo[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式框架dubbo)
 
 - Dubbo管理中心及监控平台安装部署
 - Dubbo分布式服务器模块划分（领域驱动）
@@ -103,7 +113,7 @@
 - 基于Dubbo构建大型分布式电商平台实战雏形
 - Dubbo容错机制及高扩展性分析
 
-## 分布式消息队列 - RabbitMQ[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2440458430)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式消息队列---rabbitmq)
+## 分布式消息队列 - RabbitMQ[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式消息队列---rabbitmq)
 
 - RabbitMQ快速上手使用
 - RabbitMQ消息发送机制详解
@@ -115,7 +125,7 @@
 - [互联网面试必杀：如何保证消息中间件全链路数据100%不丢失：第三篇](https://www.cnblogs.com/jajian/p/10293391.html)
 - [互联网面试必杀：如何保证消息中间件全链路数据100%不丢失：第四篇](https://www.cnblogs.com/jajian/p/10293422.html)
 
-## 分布式消息队列 - Kafka[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3840715606)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式消息队列---kafka)
+## 分布式消息队列 - Kafka[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式消息队列---kafka)
 
 - Kafka基于Zookeeper搭建高可用集群实战
 - Kafka消息处理过程剖析
@@ -123,11 +133,11 @@
 - Kafka的副本机制及选举原理剖析
 - 基于Kafka实现应用日志实时上报统计分析
 
-## 分布式消息队列 - RocketMq[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#763968854)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式消息队列---rocketmq)
+## 分布式消息队列 - RocketMq[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式消息队列---rocketmq)
 
 - 待定
 
-## 分布式缓存Redis[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2109034885)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式缓存redis)
+## 分布式缓存Redis[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式缓存redis)
 
 - 缓存击穿、穿透、雪崩预防策略
 - 精通Redis的数据结构
@@ -144,7 +154,7 @@
 - Redis批量查询优化
 - Redis高性能集群之Twemproxy Or Codis
 
-## 搜索引擎 - Elasticsearch[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#460589788)[#](https://www.cnblogs.com/pingoo/p/13709363.html#搜索引擎---elasticsearch)
+## 搜索引擎 - Elasticsearch[#](https://www.cnblogs.com/jajian/p/11833179.html#搜索引擎---elasticsearch)
 
 - [全文搜索引擎 ElasticSearch 还是 Solr？](https://www.cnblogs.com/jajian/p/9801154.html)
 - [Elasticsearch 技术分析（一）： 基础入门](https://www.cnblogs.com/jajian/p/9976900.html)
@@ -157,7 +167,7 @@
 - [Elasticsearch 技术分析（八）：剖析 Elasticsearch 的索引原理](https://www.cnblogs.com/jajian/p/10737373.html)
 - [Elasticsearch 技术分析（九）：Elasticsearch基础和原理总结](https://www.cnblogs.com/jajian/p/11223992.html)
 
-## 分布式数据扩容 - MyCat[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#601708215)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式数据扩容---mycat)
+## 分布式数据扩容 - MyCat[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式数据扩容---mycat)
 
 - Mycat读写分离
 - Mycat水平切分
@@ -172,9 +182,8 @@
 - Mycat全局表、Er表、分片策略分析
 - Sharding-jdbc
 
-## 数据存储[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2665297389)[#](https://www.cnblogs.com/pingoo/p/13709363.html#数据存储)
+## 数据存储[#](https://www.cnblogs.com/jajian/p/11833179.html#数据存储)
 
-- [MySQL的修仙者之旅，不来看看你的修为如何吗？](https://www.cnblogs.com/ZhuChangwu/p/14174248.html)
 - Nosql简介及Mongodb基本概念
 - MongoDB支持的数据类型分析
 - MongoDB可视化客户端及Java api实践
@@ -185,8 +194,13 @@
 - Mysql主从复制及读写分离
 - Mysql+Keepalived实战双主高可用方案实践
 - Mysql高性能解决方案之分库分表
+- [必须掌握的Mysql优化指南](https://www.cnblogs.com/jajian/p/9758192.html)
+- 理解Mysql底层B+树机制
+- SQL执行计划详解
+- 索引优化详解
+- SQL语句优化
 
-## 后台服务[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#332251497)[#](https://www.cnblogs.com/pingoo/p/13709363.html#后台服务)
+## 后台服务[#](https://www.cnblogs.com/jajian/p/11833179.html#后台服务)
 
 - 基于Openresty部署应用层Nginx及Nginx+Lua实践
 - Nginx反向代理服务器及负载均衡服务器配置实战
@@ -197,17 +211,18 @@
 - Nginx提供Https服务
 - 基于Nginx+Lua完成访问流量是实时上报Kafka实战
 
-## 高性能Nio框架[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1219595672)[#](https://www.cnblogs.com/pingoo/p/13709363.html#高性能nio框架)
+## 高性能Nio框架[#](https://www.cnblogs.com/jajian/p/11833179.html#高性能nio框架)
 
 - IO的基本概念，Nio、Aio、Bio深入分析
 - Nio的核心设计思想
 - Netty产生的背景及应用场景分析
-- 基于Netty实现高性能Im聊天
+- 基于Netty实现高性能IM聊天
 - 基于Netty实现dubbo多协议通信支持
 - Netty无锁化串行设计及高并发处理机制
 - 手写实现多协议Rpc框架
+- [Netty、Kafka中的零拷贝技术到底有多牛?](https://www.cnblogs.com/jajian/articles/12844821.html)
 
-## 分布式解决方案[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#539868983)[#](https://www.cnblogs.com/pingoo/p/13709363.html#分布式解决方案)
+## 分布式解决方案[#](https://www.cnblogs.com/jajian/p/11833179.html#分布式解决方案)
 
 - [分布式全局ID生成方案](https://www.cnblogs.com/jajian/p/11101213.html)
 - 分布式事务解决方案实战
@@ -219,9 +234,9 @@
 - [分布式系统中接口的幂等性](https://www.cnblogs.com/jajian/p/10926681.html)
 - [终于有人把“TCC分布式事务”实现原理讲明白了!](https://www.cnblogs.com/jajian/p/10014145.html)
 
-# 微服务专题[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1893591002)
+# 微服务专题[#](https://www.cnblogs.com/jajian/p/11833179.html#微服务专题)
 
-## 漫谈微服务架构[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1793013830)[#](https://www.cnblogs.com/pingoo/p/13709363.html#漫谈微服务架构)
+## 漫谈微服务架构[#](https://www.cnblogs.com/jajian/p/11833179.html#漫谈微服务架构)
 
 - SOA架构和微服务架构之间的区别和联系
 - 如何设计微服务及其设计原则
@@ -229,7 +244,7 @@
 - 什么是Spring Cloud，为何要选择Spring Cloud
 - [从单体架构升级到微服务，在代码层面应注意的一些问题](https://www.cnblogs.com/jajian/p/11101196.html)
 
-## SpringBoot框架[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2999095741)[#](https://www.cnblogs.com/pingoo/p/13709363.html#springboot框架)
+## SpringBoot框架[#](https://www.cnblogs.com/jajian/p/11833179.html#springboot框架)
 
 - Springboot与微服务之间的关系
 - Springboot热部署
@@ -240,16 +255,13 @@
 - SpringBoot计策模板引擎Thymeleaf Freemarker
 - SpringBoot核心注解详解
 - Spring启动器starter原理深入分析
-- SpringBoot集成Mybatis实现多数据源路由实战
-- SpringBoot集成Dubbo
-- SpringBoot集成Redis缓存
-- SpringBoot集成Swagger2构建Api管理及测试体系
-- SpringBoot实现多环境配置动态解析
-- SpringBoot优雅异常处理
-- [SpringBoot如何校验接口参数?](https://www.cnblogs.com/Chenjiabing/p/13890384.html)
-- [SpringBoot日志设计](https://mp.weixin.qq.com/s/Xx7vNZv9qhYhp7zX0FKAvA)
+- Springboot集成Mybatis实现多数据源路由实战
+- Springboot集成Dubbo
+- Springboot集成Redis缓存
+- Springboot集成Swagger2构建Api管理及测试体系
+- Springboot实现多环境配置动态解析
 
-## Spring Cloud组件[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1635092653)[#](https://www.cnblogs.com/pingoo/p/13709363.html#spring-cloud组件)
+## Spring Cloud组件[#](https://www.cnblogs.com/jajian/p/11833179.html#spring-cloud组件)
 
 - [拜托！面试请不要再问我Spring Cloud底层原理](https://www.cnblogs.com/jajian/p/9973555.html)
 - Eureka注册中心
@@ -263,19 +275,17 @@
 - 基于Hystrix实现接口降级实战
 - Springboot集成Spring Cloud实现统一整合方案
 
-## Docker虚拟化[#](https://www.cnblogs.com/pingoo/p/13709363.html#docker虚拟化)
+## Docker虚拟化[#](https://www.cnblogs.com/jajian/p/11833179.html#docker虚拟化)
 
-- [Linux 系统安装 Docker](https://www.cnblogs.com/dtdx/p/14058876.html)
-- [IDEA集成Docker插件实现一键自动打包部署微服务项目](https://www.cnblogs.com/haoxianrui/p/14088400.html)
 - Docker的镜像、仓库、容器
 - Docker File 构建LNMP环境部署个人博客WordPress
 - Docker网络组成、路由互联、Openvswitch
 - 基于Swarn构建Docker集群实战
 - Kubernetes简介
 
-# 性能优化[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1186873722)
+# 性能优化[#](https://www.cnblogs.com/jajian/p/11833179.html#性能优化)
 
-## JVM调优[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1001111412)[#](https://www.cnblogs.com/pingoo/p/13709363.html#jvm调优)
+## JVM调优[#](https://www.cnblogs.com/jajian/p/11833179.html#jvm调优)
 
 - JVM内存模型
 - GC方法
@@ -284,7 +294,7 @@
 - 实战MAT分析dump文件
 - [系统运行缓慢，CPU 100%，以及Full GC次数过多问题的排查思路](https://www.cnblogs.com/jajian/p/10578628.html)
 
-## Tomcat调优[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#567357285)[#](https://www.cnblogs.com/pingoo/p/13709363.html#tomcat调优)
+## Tomcat调优[#](https://www.cnblogs.com/jajian/p/11833179.html#tomcat调优)
 
 - 探查Tomcat的运行机制及框架
 - 分析Tomcat线程模型
@@ -296,89 +306,52 @@
 - Tomcat连接并发参数解读
 - Tomcat server.xml详解
 
-## Mysql调优[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2961156374)[#](https://www.cnblogs.com/pingoo/p/13709363.html#mysql调优)
+# 大数据处理[#](https://www.cnblogs.com/jajian/p/11833179.html#大数据处理)
 
-- [必须掌握的Mysql优化指南](https://www.cnblogs.com/jajian/p/9758192.html)
-- 理解Mysql底层B+树机制
-- SQL执行计划详解
-- 索引优化详解
-- SQL语句优化
-
-# 大数据处理[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2869441951)
-
-## 流框架Flink[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1228873068)[#](https://www.cnblogs.com/pingoo/p/13709363.html#流框架flink)
+## 流框架Flink[#](https://www.cnblogs.com/jajian/p/11833179.html#流框架flink)
 
 - Flink架构、原理与部署测试
 
-# 源码分析专题[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1653014695)
+# 源码分析专题[#](https://www.cnblogs.com/jajian/p/11833179.html#源码分析专题)
 
-## 常用设计模式[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1682672776)[#](https://www.cnblogs.com/pingoo/p/13709363.html#常用设计模式)
-
-- [Template模板模式](https://www.cnblogs.com/jajian/p/9729939.html)
-- [Decorator装饰模式](https://www.cnblogs.com/jajian/p/9729989.html)
-- [Adapter适器模式](https://www.cnblogs.com/jajian/p/9736164.html)
-- [Proxy代理模式](https://www.cnblogs.com/jajian/p/9691221.html)
-- [Strategy策略模式](https://www.cnblogs.com/jajian/p/9740271.html)
-- [责任链模式](https://www.cnblogs.com/jajian/p/9743922.html)
-- [Observer观察者模式](https://www.cnblogs.com/jajian/p/9746433.html)
-- [Builder建造者模式](https://www.cnblogs.com/jajian/p/9749138.html)
-
-## Spring5[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#1794062790)[#](https://www.cnblogs.com/pingoo/p/13709363.html#spring5)
+## Spring5[#](https://www.cnblogs.com/jajian/p/11833179.html#spring5)
 
 - IOC/DI
 - IOC容器设计原理及高级特性
 - AOP设计原理
-- [死磕Spring之IoC篇](https://www.cnblogs.com/lifullmoon/p/14436372.html)
+- FactoryBean与BeanFactory
+- Spring Bean的生命周期
 - Spring事务处理机制
 - [Spring事务失效的 8 大原因](https://www.cnblogs.com/jajian/articles/12844069.html)
 - [面试中被问Spring循环依赖的三种方式！！!](https://www.cnblogs.com/jajian/p/10241932.html)
 - [Spring如何在一个事务中开启另一个事务](https://www.cnblogs.com/jajian/articles/12836743.html)
 - 手写SpringMVC框架
 
-## Mybatis[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#655634871)[#](https://www.cnblogs.com/pingoo/p/13709363.html#mybatis)
+## Mybatis[#](https://www.cnblogs.com/jajian/p/11833179.html#mybatis)
 
+- [Mybatis 批量更新遇到的小问题](https://www.cnblogs.com/jajian/p/13949968.html)
 - 代码自动生成器：Generateor
 - Mybatis关联查询，嵌套查询
 - 一级缓存、二级缓存使用场景及选择策略
 - 分析Mybatis的动态代理的真正实现
 
-## Dubbo[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3396533048)[#](https://www.cnblogs.com/pingoo/p/13709363.html#dubbo)
+# 算法[#](https://www.cnblogs.com/jajian/p/11833179.html#算法)
 
-- 服务注册
-- 负载均衡
-
-## Springboot[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#4261238944)[#](https://www.cnblogs.com/pingoo/p/13709363.html#springboot)
-
-- @SpringBootApplication
-- 待定
-
-## Eureka[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#4165882723)[#](https://www.cnblogs.com/pingoo/p/13709363.html#eureka)
+# Go语言[#](https://www.cnblogs.com/jajian/p/11833179.html#go语言)
 
 - 待定
 
-## Zuul[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#4047213659)[#](https://www.cnblogs.com/pingoo/p/13709363.html#zuul)
+# 区块链[#](https://www.cnblogs.com/jajian/p/11833179.html#区块链)
 
 - 待定
 
-## Netty[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3240674293)[#](https://www.cnblogs.com/pingoo/p/13709363.html#netty)
+# 机器学习[#](https://www.cnblogs.com/jajian/p/11833179.html#机器学习)
 
 - 待定
 
-# 算法[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3048656024)
+# 工程化与工具[#](https://www.cnblogs.com/jajian/p/11833179.html#工程化与工具)
 
-# Python语言[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3685506012)
-
-- [我的心酸求职之路：如果可以，去学Java、C，不要搞Python](https://www.cnblogs.com/jajian/articles/12835231.html)
-
-# Go语言[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2295574270)
-
-- 待定
-
-# 机器学习[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3568286587)
-
-- 待定
-
-## Maven[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#4194031424)[#](https://www.cnblogs.com/pingoo/p/13709363.html#maven)
+## Maven[#](https://www.cnblogs.com/jajian/p/11833179.html#maven)
 
 - 生成可执行jar、理解scope生成最精确的jar
 - 类冲突、包依赖NoClassDefFoundError问题定位及解决
@@ -386,21 +359,21 @@
 - Nexus使用、上传、配置
 - 对比Gradle
 
-## Git[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#3149754278)[#](https://www.cnblogs.com/pingoo/p/13709363.html#git)
+## Git[#](https://www.cnblogs.com/jajian/p/11833179.html#git)
 
 - 什么是Git以及Git工作原理
 - Git常用命令(避坑教学)
 - Git冲突怎么引起的，如何解决
 - 架构师的职责：Git Flow规范团队Git使用规范
 
-## Jekins[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#2142025698)[#](https://www.cnblogs.com/pingoo/p/13709363.html#jekins)
+## Jekins[#](https://www.cnblogs.com/jajian/p/11833179.html#jekins)
 
 - 搭建Jenkins自动部署环境
 - Jenkins集成maven、git实现自动部署
 - test/pre/pro 多环境发布
 - Jenkins多环境配置、权限管理及插件使用
 
-## IntelliJ IDEA[#](https://www.cnblogs.com/jajian/archive/2004/01/13/11833179.html#402509748)[#](https://www.cnblogs.com/pingoo/p/13709363.html#intellij-idea)
+## IntelliJ IDEA[#](https://www.cnblogs.com/jajian/p/11833179.html#intellij-idea)
 
 - [IntelliJ IDEA（一） ：安装与破解](https://www.cnblogs.com/jajian/p/7989032.html)
 - [IntelliJ IDEA（二） ：面板介绍](https://www.cnblogs.com/jajian/p/7994126.html)
@@ -415,3 +388,6 @@
 - [IntelliJ IDEA（十一） ：Debug的使用](https://www.cnblogs.com/jajian/p/9410844.html)
 - [IntelliJ IDEA 2018.3 重大升级，哪些功能打动了你？](https://www.cnblogs.com/jajian/p/10017577.html)
 - [通过IDEA快速定位和排除依赖冲突](https://www.cnblogs.com/jajian/p/11002521.html)
+
+# 随笔杂文
+
