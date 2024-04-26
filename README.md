@@ -23,6 +23,13 @@
 
 ## Redis
 
+* [16张图带你吃透Redis架构演进](https://zhuanlan.zhihu.com/p/349241304)
+* [把Redis当作队列来用，真的合适吗？](https://zhuanlan.zhihu.com/p/372548326)
+* [Redis为什么变慢了？一文讲透如何排查Redis性能问题 | 万字长文](https://zhuanlan.zhihu.com/p/346302897)
+* [Redis最佳实践：7个维度+43条使用规范，带你彻底玩转Redis | 附最佳实践清单](https://zhuanlan.zhihu.com/p/354486475)
+
+* [颠覆认知——Redis会遇到的15个「坑」，你踩过几个？](https://zhuanlan.zhihu.com/p/360971755)
+
 
 
 ## MySQL
