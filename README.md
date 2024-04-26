@@ -34,6 +34,8 @@
 
 ## MySQL
 
+* [MySQL实战45讲](https://time.geekbang.org/column/intro/100020801)
+
 
 
 # 设计模式专题
@@ -245,11 +247,14 @@
 
 ## 漫谈微服务架构[#](https://www.cnblogs.com/jajian/p/11833179.html#漫谈微服务架构)
 
+* [CAP 定理的含义](https://www.ruanyifeng.com/blog/2018/07/cap.html)
+
 - SOA架构和微服务架构之间的区别和联系
 - 如何设计微服务及其设计原则
 - 解惑Spring Boot流行因素及能够解决什么问题
 - 什么是Spring Cloud，为何要选择Spring Cloud
 - [从单体架构升级到微服务，在代码层面应注意的一些问题](https://www.cnblogs.com/jajian/p/11101196.html)
+- [什么是链路追踪？分布式系统如何实现链路追踪？](https://zhuanlan.zhihu.com/p/344020712)
 
 ## SpringBoot框架[#](https://www.cnblogs.com/jajian/p/11833179.html#springboot框架)
 
@@ -341,6 +346,10 @@
 - Mybatis关联查询，嵌套查询
 - 一级缓存、二级缓存使用场景及选择策略
 - 分析Mybatis的动态代理的真正实现
+
+# 项目实例
+
+
 
 # 算法[#](https://www.cnblogs.com/jajian/p/11833179.html#算法)
 
