@@ -4,14 +4,32 @@
 
 # Java基础
 
-- [Java对象的内存布局](https://www.cnblogs.com/jajian/p/13681781.html)
-- [MapStruct 解了对象映射的毒](https://www.cnblogs.com/jajian/p/13937897.html)
+## 基础
+
+
+
+* [学会反射后，我被录取了（干货）](https://juejin.cn/post/6864324335654404104#heading-7)
+
+
+
+## 集合
+
+* [面渣逆袭：Java集合连环三十问](https://juejin.cn/post/7040997503247843365?utm_source=gold_browser_extension)
+
+* [Java集合入门，看这篇就够了](https://juejin.cn/post/7002171097831440414?utm_source=gold_browser_extension#heading-11)
+
 - [周末我把HashMap源码又过了一遍](https://www.cnblogs.com/jajian/p/13965678.html)
 - [Java7 和 Java8 中的 ConcurrentHashMap 原理解析](https://www.cnblogs.com/jajian/p/10385377.html)
+
+
+
+## JVM
+
+- [Java对象的内存布局](https://www.cnblogs.com/jajian/p/13681781.html)
+- [MapStruct 解了对象映射的毒](https://www.cnblogs.com/jajian/p/13937897.html)
+
 - [Java中自定义注解](https://www.cnblogs.com/jajian/p/9576466.html)
 - [Java函数式编程和lambda表达式](https://www.cnblogs.com/jajian/p/9757350.html)
-- [TCP三次握手原理，你真的了解吗？](https://www.cnblogs.com/jajian/p/9783809.html)
-- [“三次握手，四次挥手”你真的懂吗？](https://www.cnblogs.com/jajian/p/10306629.html)
 - [程序员你为什么这么累 | 编码规范](https://www.cnblogs.com/jajian/p/9861527.html#autoid-2-6-0)
 - [一个正则表达式引发的血案](https://www.cnblogs.com/jajian/p/9900477.html)
 - [全解史上最快的JOSN解析库 - alibaba Fastjson](https://www.cnblogs.com/jajian/p/10051901.html)
@@ -19,7 +37,16 @@
 - [对Java中HashCode方法的深入思考](https://www.cnblogs.com/jajian/p/11306471.html)
 - [通俗易懂讲布隆过滤器](https://www.cnblogs.com/jajian/articles/12749928.html)
 
-# 数据库专题
+
+
+# 计算机网络
+
+- [TCP三次握手原理，你真的了解吗？](https://www.cnblogs.com/jajian/p/9783809.html)
+- [“三次握手，四次挥手”你真的懂吗？](https://www.cnblogs.com/jajian/p/10306629.html)
+
+
+
+# 数据库
 
 ## Redis
 
@@ -38,7 +65,7 @@
 
 
 
-# 设计模式专题
+# 设计模式
 
 - [Template模板模式](https://www.cnblogs.com/jajian/p/9729939.html)
 - [Decorator装饰模式](https://www.cnblogs.com/jajian/p/9729989.html)
@@ -49,7 +76,9 @@
 - [Observer观察者模式](https://www.cnblogs.com/jajian/p/9746433.html)
 - [Builder建造者模式](https://www.cnblogs.com/jajian/p/9749138.html)
 
-# 并发编程专题
+
+
+# 并发编程
 
 ## Executors线程池
 
@@ -91,7 +120,7 @@
 - Volatile详解
 - ThreadLocal详解
 
-# 分布式专题
+# 分布式
 
 ## 分布式协调Zookeeper
 
@@ -243,7 +272,7 @@
 - [分布式系统中接口的幂等性](https://www.cnblogs.com/jajian/p/10926681.html)
 - [终于有人把“TCC分布式事务”实现原理讲明白了!](https://www.cnblogs.com/jajian/p/10014145.html)
 
-# 微服务专题
+# 微服务
 
 ## 漫谈微服务架构
 
@@ -294,6 +323,7 @@
 - Docker网络组成、路由互联、Openvswitch
 - 基于Swarn构建Docker集群实战
 - Kubernetes简介
+- [idea连接Docker](./微服务/Docker/Docker.md)
 
 # 性能优化
 
@@ -324,7 +354,7 @@
 
 - Flink架构、原理与部署测试
 
-# 源码分析专题
+# 源码分析
 
 ## Spring5
 
@@ -351,7 +381,7 @@
 
 
 
-# 算法
+# 数据结构&算法
 
 # Go语言
 
@@ -404,6 +434,8 @@
 - [IntelliJ IDEA（十一） ：Debug的使用](https://www.cnblogs.com/jajian/p/9410844.html)
 - [IntelliJ IDEA 2018.3 重大升级，哪些功能打动了你？](https://www.cnblogs.com/jajian/p/10017577.html)
 - [通过IDEA快速定位和排除依赖冲突](https://www.cnblogs.com/jajian/p/11002521.html)
+
+
 
 # 随笔杂文
 
