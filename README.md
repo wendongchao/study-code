@@ -9,14 +9,17 @@
 
 
 * [学会反射后，我被录取了（干货）](https://juejin.cn/post/6864324335654404104#heading-7)
+* [泛型系统学习](https://github.com/hanchao5272/mygenerics)
+
+
+
+
 
 
 
 ## 集合
 
 * [面渣逆袭：Java集合连环三十问](https://juejin.cn/post/7040997503247843365?utm_source=gold_browser_extension)
-
-* [Java集合入门，看这篇就够了](https://juejin.cn/post/7002171097831440414?utm_source=gold_browser_extension#heading-11)
 
 - [周末我把HashMap源码又过了一遍](https://www.cnblogs.com/jajian/p/13965678.html)
 - [Java7 和 Java8 中的 ConcurrentHashMap 原理解析](https://www.cnblogs.com/jajian/p/10385377.html)
@@ -383,6 +386,8 @@
 
 # 数据结构&算法
 
+* 滑动窗口算法
+
 # Go语言
 
 - 待定
@@ -421,19 +426,24 @@
 
 ## IntelliJ IDEA
 
-- [IntelliJ IDEA（一） ：安装与破解](https://www.cnblogs.com/jajian/p/7989032.html)
-- [IntelliJ IDEA（二） ：面板介绍](https://www.cnblogs.com/jajian/p/7994126.html)
-- [IntelliJ IDEA（三） ：常用快捷键](https://www.cnblogs.com/jajian/p/8012603.html)
-- [IntelliJ IDEA（四） ：Settings（上）](https://www.cnblogs.com/jajian/p/8080612.html)
-- [IntelliJ IDEA（五） ：Settings（中）](https://www.cnblogs.com/jajian/p/8108690.html)
-- [IntelliJ IDEA（六） ：Settings（下）](https://www.cnblogs.com/jajian/p/8136672.html)
-- [IntelliJ IDEA（七） ：Project Structure](https://www.cnblogs.com/jajian/p/8081640.html)
-- [IntelliJ IDEA（八） ：Git的使用](https://www.cnblogs.com/jajian/p/8471989.html)
-- [IntelliJ IDEA（九） ：酷炫插件系列](https://www.cnblogs.com/jajian/p/8081658.html)
-- [IntelliJ IDEA（十） ：常用操作](https://www.cnblogs.com/jajian/p/9056730.html)
-- [IntelliJ IDEA（十一） ：Debug的使用](https://www.cnblogs.com/jajian/p/9410844.html)
-- [IntelliJ IDEA 2018.3 重大升级，哪些功能打动了你？](https://www.cnblogs.com/jajian/p/10017577.html)
+* [IDEA激活码](https://www.ajihuo.com)
+* [常用插件](./工具/IDEA.md)
+
 - [通过IDEA快速定位和排除依赖冲突](https://www.cnblogs.com/jajian/p/11002521.html)
+
+## canal
+
+## GitHub
+
+[搜集的链接](./工具/GitHub.md)
+
+
+
+## Arthas
+
+[github地址](https://github.com/alibaba/arthas)
+
+
 
 
 
