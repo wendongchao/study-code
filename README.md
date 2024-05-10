@@ -2,7 +2,7 @@
 
 参考资料：https://www.cnblogs.com/jajian/p/11833179.html
 
-# Java基础
+# Java基础[#](./Java基础/Java基础.md)
 
 ## 基础
 
@@ -11,7 +11,7 @@
 * [学会反射后，我被录取了（干货）](https://juejin.cn/post/6864324335654404104#heading-7)
 * [泛型系统学习](https://github.com/hanchao5272/mygenerics)
 
-
+* [Java8 Stream](https://blog.csdn.net/mu_wind/article/details/109516995)
 
 
 
@@ -21,24 +21,21 @@
 
 * [面渣逆袭：Java集合连环三十问](https://juejin.cn/post/7040997503247843365?utm_source=gold_browser_extension)
 
-- [周末我把HashMap源码又过了一遍](https://www.cnblogs.com/jajian/p/13965678.html)
 - [Java7 和 Java8 中的 ConcurrentHashMap 原理解析](https://www.cnblogs.com/jajian/p/10385377.html)
 
 
 
-## JVM
+
 
 - [Java对象的内存布局](https://www.cnblogs.com/jajian/p/13681781.html)
-- [MapStruct 解了对象映射的毒](https://www.cnblogs.com/jajian/p/13937897.html)
-
-- [Java中自定义注解](https://www.cnblogs.com/jajian/p/9576466.html)
 - [Java函数式编程和lambda表达式](https://www.cnblogs.com/jajian/p/9757350.html)
-- [程序员你为什么这么累 | 编码规范](https://www.cnblogs.com/jajian/p/9861527.html#autoid-2-6-0)
-- [一个正则表达式引发的血案](https://www.cnblogs.com/jajian/p/9900477.html)
 - [全解史上最快的JOSN解析库 - alibaba Fastjson](https://www.cnblogs.com/jajian/p/10051901.html)
 - 深入分析 Java SPI 机制和原理
 - [对Java中HashCode方法的深入思考](https://www.cnblogs.com/jajian/p/11306471.html)
-- [通俗易懂讲布隆过滤器](https://www.cnblogs.com/jajian/articles/12749928.html)
+
+
+
+
 
 
 
@@ -51,7 +48,7 @@
 
 # 数据库
 
-## Redis
+## Redis[#](./数据库/Redis.md)
 
 * [16张图带你吃透Redis架构演进](https://zhuanlan.zhihu.com/p/349241304)
 * [把Redis当作队列来用，真的合适吗？](https://zhuanlan.zhihu.com/p/372548326)
@@ -60,11 +57,46 @@
 
 * [颠覆认知——Redis会遇到的15个「坑」，你踩过几个？](https://zhuanlan.zhihu.com/p/360971755)
 
+- [通俗易懂讲布隆过滤器](https://www.cnblogs.com/jajian/articles/12749928.html)
+- [SpringBoot集成Redis]
+
+---
+
+分布式锁
+
+[Redis分布式锁-这一篇全了解(Redission实现分布式锁完美方案)](https://blog.csdn.net/asd051377305/article/details/108384490)
+
+[Redis实现分布式锁的7种方案](https://www.cnblogs.com/wangyingshuo/p/14510524.html)
 
 
-## MySQL
+
+---
+
+延迟队列
+
+[有赞延迟队列设计](https://tech.youzan.com/queuing_delay/)
+
+[Redisson 延时队列 原理 详解](https://zhuanlan.zhihu.com/p/343811173)
+
+
+
+
+
+
+
+## MySQL[#](./数据库/MySQL.md)
 
 * [MySQL实战45讲](https://time.geekbang.org/column/intro/100020801)
+
+* [mysql中InnoDB引擎中页的概念](https://segmentfault.com/a/1190000008545713)
+
+* 索引详解
+* 事务隔离级别
+* 三大日志（binlog，redo log，undo log）
+* 存储引擎对MVCC的实现
+* [正确的理解MySQL的MVCC及实现原理](https://blog.csdn.net/SnailMann/article/details/94724197)
+
+
 
 
 
@@ -288,7 +320,9 @@
 - [从单体架构升级到微服务，在代码层面应注意的一些问题](https://www.cnblogs.com/jajian/p/11101196.html)
 - [什么是链路追踪？分布式系统如何实现链路追踪？](https://zhuanlan.zhihu.com/p/344020712)
 
-## SpringBoot框架
+## SpringBoot框架[#](./微服务/SpringBoot.md)
+
+* Springboot参数校验与国际化
 
 - Springboot与微服务之间的关系
 - Springboot热部署
@@ -444,6 +478,10 @@
 [github地址](https://github.com/alibaba/arthas)
 
 
+
+## Docker
+
+[docker-compose示例](https://gitee.com/zhengqingya/docker-compose)
 
 
 
