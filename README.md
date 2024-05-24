@@ -10,8 +10,29 @@
 
 * [学会反射后，我被录取了（干货）](https://juejin.cn/post/6864324335654404104#heading-7)
 * [泛型系统学习](https://github.com/hanchao5272/mygenerics)
-
 * [Java8 Stream](https://blog.csdn.net/mu_wind/article/details/109516995)
+* [深入理解Java的接口和抽象类](https://www.cnblogs.com/dolphin0520/p/3811437.html)
+
+* [序列化理解起来很简单](https://zhuanlan.zhihu.com/p/40462507)
+* [Java正则表达式语法大全](https://juejin.cn/post/7020303920966664222?utm_source=gold_browser_extension)
+
+* [Java四种引用类型](https://www.cnblogs.com/liyutian/p/9690974.html)
+
+---
+
+代理
+
+[动态代理导致注解未生效](https://juejin.cn/post/7060062710213378061?utm_source=gold_browser_extension)
+
+[java实战，轻松理解魔法般的代理模式](https://juejin.cn/post/6996123096507760648?utm_source=gold_browser_extension)
+
+[Spring AOP中JDK和CGLib动态代理哪个更快？](https://juejin.cn/post/6844903673676431374)
+
+[Java动态代理与静态代理](https://juejin.cn/post/7110220588207046687)
+
+
+
+
 
 
 
@@ -58,6 +79,8 @@
 * [颠覆认知——Redis会遇到的15个「坑」，你踩过几个？](https://zhuanlan.zhihu.com/p/360971755)
 
 - [通俗易懂讲布隆过滤器](https://www.cnblogs.com/jajian/articles/12749928.html)
+- [Redis分布式锁到底安全吗？](https://zhuanlan.zhihu.com/p/378797329)
+- [把Redis当作队列来用，真的合适吗？](https://zhuanlan.zhihu.com/p/372548326)
 - [SpringBoot集成Redis]
 
 ---
@@ -102,9 +125,11 @@
 
 # 设计模式
 
+* [单例模式](https://wendongchao.notion.site/1-ed0dfb26aa1544fc96f2ad469421bed1?pvs=4)
+
 - [Template模板模式](https://www.cnblogs.com/jajian/p/9729939.html)
 - [Decorator装饰模式](https://www.cnblogs.com/jajian/p/9729989.html)
-- [Adapter适器模式](https://www.cnblogs.com/jajian/p/9736164.html)
+- [Adapter适配器模式](https://www.cnblogs.com/jajian/p/9736164.html)
 - [Proxy代理模式](https://www.cnblogs.com/jajian/p/9691221.html)
 - [Strategy策略模式](https://www.cnblogs.com/jajian/p/9740271.html)
 - [责任链模式](https://www.cnblogs.com/jajian/p/9743922.html)
@@ -113,7 +138,9 @@
 
 
 
-# 并发编程
+# 并发编程[#](./并发编程/并发基础.md)
+
+
 
 ## Executors线程池
 
@@ -154,6 +181,34 @@
 - Synchronized详解
 - Volatile详解
 - ThreadLocal详解
+
+# SSM
+
+## Spring
+
+[Spring 为何需要三级缓存解决循环依赖，而不是二级缓存？](https://mp.weixin.qq.com/s/aSbdhRIYkcc8fa92U658Zw)
+
+[Spring：我是如何解决循环依赖问题的？](https://mp.weixin.qq.com/s/m2DrtDxBzShtNF2Uk6zSAg)
+
+[Spring常见问题总结](https://gitee.com/SnailClimb/JavaGuide/blob/master/docs/system-design/framework/spring/Spring%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93.md#spring%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93)
+
+[Spring 中经典的 9 种设计模式，打死也要记住啊！](https://mp.weixin.qq.com/s/-YkOeOk6t2fy7EruDdxigQ)
+
+
+
+
+
+
+
+## SpringMVC
+
+## Mybatis
+
+[代码实例解析](https://wendongchao.notion.site/9859e6bc538c417286ac2f9f92c84ee4?v=31017985cfa94350baeabecb93e0789e&pvs=4)
+
+
+
+
 
 # 分布式
 
@@ -353,14 +408,7 @@
 - 基于Hystrix实现接口降级实战
 - Springboot集成Spring Cloud实现统一整合方案
 
-## Docker虚拟化
 
-- Docker的镜像、仓库、容器
-- Docker File 构建LNMP环境部署个人博客WordPress
-- Docker网络组成、路由互联、Openvswitch
-- 基于Swarn构建Docker集群实战
-- Kubernetes简介
-- [idea连接Docker](./微服务/Docker/Docker.md)
 
 # 性能优化
 
@@ -422,6 +470,12 @@
 
 * 滑动窗口算法
 
+# 面试
+
+[缓存和数据库一致性问题](https://zhuanlan.zhihu.com/p/408515044)
+
+
+
 # Go语言
 
 - 待定
@@ -479,11 +533,17 @@
 
 
 
-## Docker
-
-[docker-compose示例](https://gitee.com/zhengqingya/docker-compose)
 
 
+## Docker虚拟化
+
+- Docker的镜像、仓库、容器
+- Docker File 构建LNMP环境部署个人博客WordPress
+- Docker网络组成、路由互联、Openvswitch
+- 基于Swarn构建Docker集群实战
+- Kubernetes简介
+- [idea连接Docker](./微服务/Docker/Docker.md)
+- [docker-compose示例](https://gitee.com/zhengqingya/docker-compose)
 
 # 随笔杂文
 
