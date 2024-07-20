@@ -165,6 +165,8 @@ kafka在操作消息队列时使用订阅模式，消费者订阅对应的分区
 
 参考链接：https://blog.csdn.net/weixin_45366499/article/details/106943229
 
+高质量链接：https://layne.blog.csdn.net/article/details/120477108?spm=1001.2014.3001.5502
+
 
 
 
