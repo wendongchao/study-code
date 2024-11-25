@@ -11,7 +11,6 @@
     <modules>
         <module>example-demo</module>
         <module>redis-demo</module>
-        <module>common-demo</module>
     </modules>
 
     <parent>
