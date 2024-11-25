@@ -371,7 +371,7 @@
 - [从单体架构升级到微服务，在代码层面应注意的一些问题](https://www.cnblogs.com/jajian/p/11101196.html)
 - [什么是链路追踪？分布式系统如何实现链路追踪？](https://zhuanlan.zhihu.com/p/344020712)
 
-## SpringBoot框架[#](./微服务/SpringBoot.md)
+## SpringBoot框架[#](./微服务/微服务.md)
 
 * Springboot参数校验与国际化
 
