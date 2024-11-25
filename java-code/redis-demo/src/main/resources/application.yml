@@ -5,8 +5,8 @@ spring:
     name: redis-demo
   redis:
     database: 0
-    host: 127.0.0.1
-    password: root2014
+    host: 175.178.77.60
+    password:
     port: 6379
     jedis:
       pool:
