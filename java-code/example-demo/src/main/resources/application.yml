@@ -25,4 +25,4 @@ mybatis:
     # 下划线转驼峰
     map-underscore-to-camel-case: true
   mapper-locations: classpath:mappers/*.xml
-  type-aliases-package: com.common.entity
+  type-aliases-package: com.example.entity
