@@ -373,8 +373,7 @@
 
 ## SpringBoot框架[#](./微服务/微服务.md)
 
-* Springboot参数校验与国际化
-
+- Springboot参数校验与国际化
 - Springboot与微服务之间的关系
 - Springboot热部署
 - SpringBoot快速上手应用
@@ -391,7 +390,6 @@
 - Springboot实现多环境配置动态解析
 
 ## Spring Cloud组件
-
 - [拜托！面试请不要再问我Spring Cloud底层原理](https://www.cnblogs.com/jajian/p/9973555.html)
 - Eureka注册中心
 - Ribbon集成REST实现负债均衡
