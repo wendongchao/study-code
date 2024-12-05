@@ -17,7 +17,11 @@ import lombok.NoArgsConstructor;
 public class UserEvent {
     private String name;
     private Integer money;
+    private UserServiceImpl userService;
 
     public UserEvent(UserServiceImpl userService, String anme, int money) {
+        this.userService = userService;
+        this.name = anme;
+        this.money = money;
     }
 }

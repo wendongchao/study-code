@@ -7,10 +7,6 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     initialization-mode: always
     continue-on-error: true
-    schema:
-      - "classpath:db/schema.sql"
-    data:
-      - "classpath:db/data.sql"
     hikari:
       minimum-idle: 5
       connection-test-query: SELECT 1 FROM DUAL
@@ -22,11 +18,11 @@ spring:
       connection-timeout: 30000
 logging:
   level:
-    com.xkcoding: debug
-    com.xkcoding.orm.mybatis.mapper: trace
+    com.example: debug
+    com.example.mapper: trace
 mybatis:
   configuration:
     # 下划线转驼峰
     map-underscore-to-camel-case: true
   mapper-locations: classpath:mappers/*.xml
-  type-aliases-package: com.xkcoding.orm.mybatis.entity
+  type-aliases-package: com.common.entity

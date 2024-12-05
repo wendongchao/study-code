@@ -13,7 +13,7 @@ import org.springframework.transaction.event.TransactionalEventListener;
 public class UserEventListener {
 
     @Order(0)
-    @TransactionalEventListener(value = Exception.class, phase = TransactionPhase.AFTER_COMMIT, condition = "# event.name == 'wdc'")
+    @TransactionalEventListener(classes = UserEvent.class, phase = TransactionPhase.AFTER_COMMIT, condition = "#event.name == 'wdc'")
     public void onApplicationEvent(UserEvent event) {
         String name = event.getName();
         Integer money = event.getMoney();

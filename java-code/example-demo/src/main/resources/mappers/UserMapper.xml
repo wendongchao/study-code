@@ -3,7 +3,7 @@
 <mapper namespace="com.example.mapper.UserMapper">
 
     <insert id="saveUser">
-        INSERT INTO `orm_user` (`userId`,
+        INSERT INTO `user` (`userId`,
                                 `userName`,
                                 `createTime`,
                                 `updateTime`)
