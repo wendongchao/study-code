@@ -1,5 +1,6 @@
 package com.example.event;
 
+import com.example.service.UserService;
 import com.example.service.impl.UserServiceImpl;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -17,9 +18,9 @@ import lombok.NoArgsConstructor;
 public class UserEvent {
     private String name;
     private Integer money;
-    private UserServiceImpl userService;
+    private UserService userService;
 
-    public UserEvent(UserServiceImpl userService, String anme, int money) {
+    public UserEvent(UserService userService, String anme, int money) {
         this.userService = userService;
         this.name = anme;
         this.money = money;
